@@ -1,0 +1,19 @@
+- name: "check-health"
+  spec: "*/1 * * * *" # run at every 1 minutes
+  handler:
+    method: POST
+    url: http://localhost:8000/check-health
+    headers:
+      content-type: application/json
+    body: |
+      {}
+
+- name: "check-health"
+  spec: "@every 0h0m10s" # run at every 10s
+  handler:
+    method: POST
+    url: http://localhost:8000/check-health
+    headers:
+      content-type: application/json
+    body: |
+      {}
