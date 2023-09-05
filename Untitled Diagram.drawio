@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T12:01:13.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1Ih3Dum7N4EmUm1lGvUq" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T13:05:53.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pECTxWyQ_R_eKGVcmJyu" version="21.7.2" type="github">
   <diagram name="Page-1" id="6z5pkEbWCsWtaveYas8e">
     <mxGraphModel dx="880" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
             <mxPoint x="370" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nCKAAol2MyvEnsqoX74w-48" value="Cron-job server&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nCKAAol2MyvEnsqoX74w-48" value="Cron-job server&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#ad1010;" vertex="1" parent="1">
           <mxGeometry x="250" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nCKAAol2MyvEnsqoX74w-49" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nCKAAol2MyvEnsqoX74w-37" target="nCKAAol2MyvEnsqoX74w-35">
@@ -155,6 +155,18 @@
           <mxGeometry x="-0.0333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nCKAAol2MyvEnsqoX74w-54" value="&lt;b&gt;Xử lý logic chính&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nCKAAol2MyvEnsqoX74w-55" value="&lt;b&gt;Xử lý request/response&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nCKAAol2MyvEnsqoX74w-56" value="- lấy biến môi trường&lt;br&gt;- đọc file todo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nCKAAol2MyvEnsqoX74w-57" value="&lt;b&gt;gửi thông báo tới người dùng&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="430" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
